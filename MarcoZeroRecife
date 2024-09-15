@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Zero - Recife</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .content h2 {
+            color: #000000;
+        }
+        .content p {
+            color: #252525;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marco Zero - Recife</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <img src="https://marcozero.blog.br/wp-content/uploads/2024/03/marco-zero-recife-770x400.jpg" alt="Marco Zero">
+            <h2>Bem-vindo ao Marco Zero</h2>
+            <p><strong>Marco Zero</strong> é um dos pontos turísticos mais importantes do Recife, localizado no bairro do Recife Antigo. Este local marca o ponto inicial das estradas que partem da cidade e é um símbolo histórico e cultural.</p>
+            <p>O <em>Marco Zero</em> é rodeado por diversos edifícios históricos e culturais, incluindo o Centro de Artesanato de Pernambuco e o Parque de Esculturas Francisco Brennand. É um lugar perfeito para passeios, eventos culturais e apreciar a vista do porto.</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Descubra Recife. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
