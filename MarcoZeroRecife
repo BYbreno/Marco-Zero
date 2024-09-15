@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #ffffff;
         }
         header, footer {
             background-color: #000000;
@@ -34,8 +34,17 @@
             color: #000000;
         }
         .content p {
-            color: #252525;
+            color: #000000;
             text-align: justify;
+        }
+        .link {
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .link a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -49,6 +58,9 @@
             <h2>Bem-vindo ao Marco Zero</h2>
             <p><strong>Marco Zero</strong> é um dos pontos turísticos mais importantes do Recife, localizado no bairro do Recife Antigo. Este local marca o ponto inicial das estradas que partem da cidade e é um símbolo histórico e cultural.</p>
             <p>O <em>Marco Zero</em> é rodeado por diversos edifícios históricos e culturais, incluindo o Centro de Artesanato de Pernambuco e o Parque de Esculturas Francisco Brennand. É um lugar perfeito para passeios, eventos culturais e apreciar a vista do porto.</p>
+            <div class="link">
+                <a href="http://127.0.0.1:5500/index1.html">Descubra outros pontos turísticos do Recife Antigo</a>
+            </div>
         </div>
     </div>
     <footer>
